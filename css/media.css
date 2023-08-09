@@ -1,0 +1,395 @@
+@media (max-width:1400px) {
+    .interior__deasigns{
+        margin-top: -200px;
+    }
+}
+
+@media (max-width:1160px) {
+    .recent__home-list{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        row-gap: 30px;
+    }
+
+    .new__collection{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 20px;
+    }
+}
+
+@media (max-width:1120px) {
+  .shop__about{
+   width: 1000px;
+  }
+
+  .shop__shipping{
+    left: 10px;
+  }
+  
+.shop__shipping2::before{
+margin-left: -60px;
+}
+
+.shop__shipping3::before{
+margin-left: -90px;
+}
+
+.shop__shipping4::before{
+margin-left: -115px;
+}
+
+  .shop__shipping-title{
+    font-weight: 400;
+    font-size: 13px;
+  }
+}
+
+@media (max-width:1090px) {
+    .top__product{
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 20px;
+        row-gap: 60px;
+    }
+    
+}
+
+@media (max-width:1070px) {
+   .new__arrivals-tabs{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 20px;
+   }
+    
+}
+
+@media (max-width:1060px) {
+.people__say-about{
+   position: relative;
+}
+
+.people__say-info{
+    position: absolute;
+    height: 290px;
+    top: -160px;
+    left: 250px;
+}
+
+.people__say-info2{
+    position: absolute;
+    height: 290px;
+    margin-top: 200px;
+    top: -160px;
+    left: 520px;
+}
+
+.people__say-info3{
+    position: absolute;
+    height: 290px;
+    top: 190px;
+    left: 250px;
+}
+
+.people__say-info4{
+    position: absolute;
+    height: 290px;
+    top: 190px;
+    left: 520px;
+
+}
+}
+
+
+@media (max-width:1000px) {
+    .shop__about{
+        width: 600px;
+        height: 250px;
+        border-radius: 10px;
+    }
+
+    .shop__shipping{
+        position: absolute;
+        top: 61px;
+        left: 50px;
+    }
+
+    .shop__shipping2{
+        position: absolute;
+        top: 61px;
+        left: 380px;
+    }
+
+   .shop__shipping2::before{
+       content: none;
+    }
+
+   .shop__shipping3::before{
+       content: none;
+    }
+
+
+    .shop__shipping3{
+        position: absolute;
+        top: 140px;
+        left: 50px;
+    }
+
+    .shop__shipping4{
+        position: absolute;
+        top: 140px;
+        left: 380px;
+    }
+
+    .shop__shipping4::before{
+        content: none;
+    }
+    
+}
+
+@media (max-width:900px) {
+    .header__navbar-burger{
+        display: block;
+        margin: 25px 0;
+        order: 1;
+    }
+
+    .navbar-nav__list{
+        position:fixed;
+        align-items: center;
+        flex-direction: column;
+        left: -100%;
+        top: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.355);
+        backdrop-filter: blur(4px);
+        transition: 1s ease-in-out;
+        max-width: 300px;
+        width: 100%;
+        z-index: 20;
+        }
+
+        .header__navbar-burger:focus~.navbar-nav__list{
+            left: 0;
+        }
+
+       
+
+        .navbar-nav__link{
+            border: none;
+            color: white;
+        }
+
+        .people__say-about {
+            margin-left: -50px;
+        }
+
+        .new__arrivals-catalog{
+            flex-direction: column;
+        }
+}
+
+@media (max-width:750px) {
+    .people__say-about{
+        margin-left: -150px;
+    }
+}
+
+@media (max-width:650px) {
+    .people__say-about{
+        margin-left: -200px;
+    }
+
+        .shop__about{
+            width: 350px;
+            height: 450px;
+            border-radius: 10px;
+        }
+    
+        .shop__shipping{
+            position: absolute;
+            top: 61px;
+            left: 50px;
+        }
+    
+        .shop__shipping2{
+            position: absolute;
+            top: 220px;
+            left: 50px;
+        }
+    
+       .shop__shipping2::before{
+           content: none;
+        }
+    
+       .shop__shipping3::before{
+           content: none;
+        }
+    
+    
+        .shop__shipping3{
+            position: absolute;
+            top: 140px;
+            left: 50px;
+        }
+    
+        .shop__shipping4{
+            position: absolute;
+            top: 300px;
+            left: 50px;
+        }
+    
+        .shop__shipping4::before{
+            content: none;
+        }
+}
+
+@media (max-width:650px){
+    .popular__product-about{
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width:600px){
+    
+    .people__say-about{
+        margin-left: -230px;
+    }
+
+    .people__say-info{
+        width: 200px;
+        left: 400px;
+    }
+
+    .people__info-img{
+        left: 60px;
+        width: 80px;
+        height: 80px; 
+    }
+
+    .people__info-img >img{
+        width: 80px;
+        height: 80px; 
+        padding: 0 0 10px 0;
+    }
+
+    .people__say-name{
+        font-size: 18px;
+        top: 60px;
+        left: 40px;
+    }
+
+    .people__say-job{
+        font-size: 12px;
+        top: 100px;
+        left: 30px;
+    }
+ 
+    .people__say-rank{
+        top: 140px;
+        left: 80px;
+    }
+
+    .people__line{
+        top: 170px;
+        width: 150px;
+    }
+
+    .people__say-text{
+        font-size: 12px;
+        top: 180px;
+        left: 5px;
+        width: 190px;
+    }
+
+    .people__say-info2{
+        width: 200px;
+        top: 200px;
+        left: 400px;
+    }
+
+    .people__info-img2{
+        left: 60px;
+        width: 80px;
+        height: 80px; 
+    }
+
+    .people__info-img2 >img{
+        width: 80px;
+        height: 80px; 
+        padding: 0 0 10px 0;
+    }
+
+    .people__say-job2{
+        font-size: 12px;
+        top: 100px;
+        left: 50px;
+    }
+
+    .people__say-info3{
+        width: 200px;
+        top: 550px;
+        left: 400px;
+    }
+
+    .people__info-img3{
+        left: 60px;
+        width: 80px;
+        height: 80px; 
+    }
+
+    .people__say-name3{
+        font-size: 18px;
+        top: 60px;
+        left: 30px;
+    }
+
+    .people__info-img3 >img{
+        width: 80px;
+        height: 80px; 
+        padding: 0 0 10px 0;
+    }
+
+    .people__say-info4{
+        width: 200px;
+        top: 930px;
+        left: 400px;
+    }
+
+    .product{
+        margin-top: 700px;
+    }
+}
+
+@media (max-width:450px) {
+    .people__say-about{
+        margin-left: -290px;
+    }
+
+    .interior__footer-title{
+        font-size: 20px;
+    }
+
+    .interion__footer-param{
+        font-size: 12px;
+        width: 400px;
+    }
+
+    .interior__footer-btn{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 10px;
+    }
+
+    .footer__socialmedia {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
